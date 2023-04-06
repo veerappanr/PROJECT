@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>Contact Form </title>
+</head>
+<body>
+<form action="forminfo.php" method="post">
+<fieldset><legend>Enter Your Information in the Contact Form</legend>
+<p><b> Name: </b><input type="text" name="name" size="20" maxlength="60"/></p>
+<p><b> Email Address: </b> <input type="text" name="email" size="40" maxlength="60"/></p>
+<p><b> Gender:</b> <input type="radio" name="gender" value="m"/>Male
+		   <input type="radio" name="gender" value="f"/>FeMale
+		   <input type="radio" name="gender" value="t"/>Transgender </p>
+<p><b> Age: </b> <select name="age"> <option value="0-20"> Age 0 to 20 </option>
+		 		     <option value="21-40"> Age 21 to 40 </option>
+		 		     <option value="41-60"> Age 41 to 60 </option>
+		 		     <option value="61+"> Age above 61 </option>
+		</select></p>
+<p><b> Comments: </b> <textarea name="comments" Rows="3" cols="40"> </textarea></p>
+</filedset>
+
+<div algin="center"> <input type="submit" name="submit" Value="Submit my information" /> </div>
+</form>
+</body>
+</html>
+
+
